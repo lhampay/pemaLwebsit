@@ -262,6 +262,33 @@ header {
             color:#aaa;
         }
 
+        /* icon */
+ .social-icons{
+    display:flex;
+    gap:15px;
+    margin-top:15px;
+    margin-left:120px;
+}
+
+.social-icons a{
+    width:45px;
+    height:45px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    border-radius:50%;
+    background:rgba(255,255,255,0.1);
+    color:white;
+    font-size:20px;
+    transition:all 0.3s ease;
+}
+
+.social-icons a:hover{
+    transform:translateY(-5px);
+    background:white;
+    color:black;
+}
 
       
 @media(max-width:768px){
@@ -327,5 +354,11 @@ header {
 /*  footer    */
    .footer-container{
                 flex-direction:column;
+                margin: auto;
             }
+
+    .social-icons{
+    margin: auto;
+    margin-left: 38px;
+}
 }
